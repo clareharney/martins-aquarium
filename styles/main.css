@@ -1,0 +1,83 @@
+.page-title {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 150px;
+}
+#fish-and-aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.fish-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 7px;
+    padding: 7px;
+    width: 50%;
+}
+.fish-card {
+    border: 1px solid pink;
+    /* flex-basis: 100%; */
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px pink;
+}
+.tips-for-fish {
+    border: 1px solid pink;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px pink;
+}
+#tips-for-martin{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 30%;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid pink;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.tip-label{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+.quote-tip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+.locationList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 7px;
+    padding: 7px;
+    justify-content: space-evenly;
+}
+.location-card {
+    border: 1px solid pink;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px pink;
+    width: 30%;
+}
